@@ -1,0 +1,29 @@
+{
+    "name": "srccon-airtable-download",
+    "version": "1.0.0",
+    "description": "",
+    "main": "download-example.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "J. Emory Parker",
+    "license": "MIT",
+    "dependencies": {
+        "data-uri-to-buffer": {
+            "integrity": "sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==",
+            "resolved": "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.0.tgz",
+            "version": "4.0.0"
+        },
+        "fetch-blob": {
+            "integrity": "sha512-Eq5Xv5+VlSrYWEqKrusxY1C3Hm/hjeAsCGVG3ft7pZahlUAChpGZT/Ms1WmSLnEAisEXszjzu/s+ce6HZB2VHA==",
+            "requires": {
+                "node-domexception": "^1.0.0",
+                "web-streams-polyfill": "^3.0.3"
+            },
+            "resolved": "https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.1.4.tgz",
+            "version": "3.1.4"
+        },
+        "node-fetch": "^3.3.2",
+        "path": "^0.12.7"
+    }
+}

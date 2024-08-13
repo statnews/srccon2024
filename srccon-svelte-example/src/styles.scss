@@ -1,0 +1,75 @@
+    @font-face {
+        font-display: swap;
+        font-family: Circular;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Book.woff2) format("woff2"), url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Book.woff) format("woff")
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: Circular;
+        font-style: normal;
+        font-weight: 500;
+        src: url(https://www.statnews.com/wp-content/themes/stat/fonts/CircularStd-Medium.woff2) format("woff2"), url(https://www.statnews.com/wp-content/themes/stat/fonts/CircularStd-Medium.woff) format("woff")
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: Circular;
+        font-style: normal;
+        font-weight: 700;
+        src: url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Bold.woff2) format("woff2"), url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Bold.woff) format("woff")
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: Circular;
+        font-style: normal;
+        font-weight: 900;
+        src: url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Black.woff2) format("woff2"), url(https://www.statnews.com/wp-content/themes/stat/fonts/Circular-Black.woff) format("woff")
+    }
+    
+    $family-sans-serif: circular,
+    sans-serif;
+    $primary: #008299;
+    $link: $primary;
+    $black: #1c1c1c;
+    $red: #8C3157;
+    $green: hsl(153, 53%, 45%);
+    $yellow: #8F8F06;
+    $cyan: #005182;
+    $weight-normal: 500;
+    @import 'bulma/bulma.sass';
+    html,
+    body {
+        height: auto;
+    }
+    
+    .has-pointer-cursor {
+        cursor: pointer;
+    }
+    
+    .breadcrumb li>div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0 .75em;
+    }
+    
+    .breadcrumb li:first-child>div {
+        padding-left: 0;
+    }
+    
+    .stat-row-name {
+        font-weight: 700;
+        font-size: 12px;
+    }
+    
+    .stat-row-detail {
+        font-weight: 400;
+        font-size: 10px;
+        margin: 0 0 0.5rem 0;
+        padding: 0;
+        color: $grey;
+    }
