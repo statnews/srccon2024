@@ -31,4 +31,5 @@ To use this example, please refer to the instructions included in the readme fil
 Find me online!
 
 Threads: @jemoryparker
+
 Bluesky: @jaspar.bsky.social
